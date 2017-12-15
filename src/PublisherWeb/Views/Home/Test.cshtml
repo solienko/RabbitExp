@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Test";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+<p>Use this area to provide additional information.</p>
+<form method="post" asp-action="Zero">
+    <input type="text" name="Name" value="Name..." />
+    <input type="number" name="Count" value="10" />
+    <button type="submit">Zero</button>
+</form>
